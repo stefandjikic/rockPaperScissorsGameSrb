@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Igra</title>
+  </head>
+  <body>
+    <section class="game main-section">
+      <div class="nav">
+        <div><a href="index.html"><img src="./assets/favicon-32x32.png" alt="" /></a></div>
+      </div>
+      <div class="score">
+        <div class="player-score">
+          <div class="profile">
+            <h2>Кандидат</h2>
+            <div class="profile-img">
+              <img src="./assets/serb.jpg" alt="" />
+            </div>
+          </div>
+          <p>0</p>
+        </div>
+        <div class="computer-score">
+          <div class="profile">
+            <h2>Аца</h2>
+            <div class="profile-img">
+              <img src="./assets/AVprofile.jpg" alt="" />
+            </div>
+          </div>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="intro">
+        <h1>100 разлога за победу</h1>
+        <button>Почни игру</button>
+      </div>
+
+      <div class="match fadeOut">
+        <h2 class="winner">Изабери опцију</h2>
+        <div class="hands">
+          <img class="player-hand" src="./assets/камен.png" alt="rock" />
+          <img class="computer-hand" src="./assets/камен.png" alt="rock" />
+        </div>
+        <div class="options">
+          <button class="rock">камен</button>
+          <button class="paper">папир</button>
+          <button class="scissors">маказе</button>
+        </div>
+      </div>
+
+      <div class="playAgainWin fadeOut">
+        <button class="playAgainBtnW">Почетак</button>
+        <h2>
+          Честитам! Србија је данас на европском путу. Како би на њему и
+          остала, потребно је још много рада и мало стрплљења... и да се
+          одрекнеш 100е. Твој труд ће бити награђен чим нам буде боље. За годину, највише две...
+        </h2>
+        <div><img src="./assets/AVbravo.png" alt="" /></div>
+      </div>
+
+      <div class="playAgainLose fadeOut">
+        <button class="playAgainBtnL">Играј поново</button>
+        <h2>Мораш то мало боље за 100е!</h2>
+        <div><img src="./assets/AVponovo.png" alt="" /></div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
